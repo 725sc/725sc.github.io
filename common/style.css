@@ -1,0 +1,310 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 18px;
+	font-family: "ＭＳ ゴシック", "MS Gothic", "Osaka－等幅", "Osaka-mono", "monospace";
+}
+
+
+.header-logo {
+	padding: 10px 0 5px 70px;
+}
+
+.header-inner {
+	height: 20px;
+}
+
+.globalnavi {
+	margin-left: 90px;
+}
+
+.globalnavi li {
+	list-style: none;
+	float: left;
+	font-size: 22px;
+	font-weight: bold;
+	padding-left: 70px;
+}
+
+.gnavipic {
+	float: right;
+	padding-left: 5px;
+}
+
+.eat {
+	margin-top: -3px;
+}
+
+
+.stay {
+	float: right;
+	margin-top: -6px;
+}
+
+.know {
+	margin-top: -3px;
+}
+
+.btn {
+	text-decoration: none;
+	color: white;
+	background-color: #00a1e9; 
+	display: block;
+	border-radius: 15px;
+	padding: 8px 15px;
+	float: right;
+	margin-right: 100px;
+	margin-top: -8px;
+	font-size: 16px;
+}
+
+.sns {
+	float: right;
+	margin-right: 50px;
+	margin-top: -8px;
+}
+
+.sns img {
+	padding-right: 20px;
+}
+
+main {
+	width: 1200px;
+	margin: 20px auto 45px auto;
+	overflow:hidden;
+}
+
+.main-photo {
+	float: right;
+	position: relative;
+}
+
+.main-catchinner {
+	width: 700px;
+	height: 480px;
+	float: left;
+	position: absolute;
+	text-align: left;
+	color: white;
+	padding: 300px 40px 0 80px;
+}
+
+.main-catch p {
+	font-size: 36px;
+	margin-bottom: 30px;
+}
+
+.main-catch span {
+	font-size: 50px;
+}
+
+.main-container h1 {
+	margin-bottom: 40px;
+	position: relative;
+	font-family: Arial, Helvetica, "sans-serif";
+}
+
+.main-container h1:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -15px;/*線の上下位置*/
+  display: inline-block;
+  width: 60px;/*線の長さ*/
+  height: 5px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  background-color: #00a1e9;/*線の色*/
+  border-radius: 2px;/*線の丸み*/
+}
+
+.main-container img {
+	margin: 0 30px;
+}
+
+
+.information-wrapper {
+	text-align: center;
+	padding-top: 40px;
+}
+
+.information-wrapper h1 {
+	margin-top: 700px;
+	
+}
+
+
+.guide-wrapper {
+	text-align: center;
+	margin-top: 40px;
+}
+
+
+.news-wrapper {
+	width: 900px;
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.news-wrapper h2 {
+	color: red;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.news-sentence {
+	padding: 40px 60px;
+    border: solid 4px #F1590C;
+	border-radius: 20px;
+	float: left;
+	
+}
+
+.news-sentence p {
+	margin-bottom: 20px;
+}
+
+.news-wrapper img{
+	float: right;
+}
+
+footer {
+	background-color: #1C487E;
+	height: 92px;
+	padding: 30px 200px 0 250px; 
+}
+
+
+.footer-sns {
+	margin-top: -7px;
+	margin-right: 40px;
+	float: right;
+}
+
+.footer-sns img {
+	padding-right: 20px;
+}
+
+.btn-footer {
+	text-decoration: none;
+	color: white;
+	background-color: #00a1e9; 
+	display: block;
+	border-radius: 15px;
+	padding: 8px 15px;
+	float: right;
+	margin-right: 50px;
+	margin-top: -8px;
+	font-size: 16px;
+}
+
+#contactform {
+	padding-bottom: 250px;
+}
+
+.booking-wrapper {
+	width: 600px;
+	height: 380px;
+	border: solid 4px #284C78;
+	border-radius:20px;
+	padding-bottom: 100px;
+	margin: 100px auto;
+	text-align: center;
+	
+}
+
+.booking-wrapper h1,.booking-number h1 {
+	font-family: Arial, Helvetica, "sans-serif";
+	text-align: center;
+	margin-top: 40px;
+}
+
+.booking-wrapper h1:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 5px;/*線の上下位置*/
+  display: inline-block;
+  width: 60px;/*線の長さ*/
+  height: 5px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  background-color: #00a1e9;/*線の色*/
+  border-radius: 2px;/*線の丸み*/
+}
+
+.datedetail {
+	padding-top: 40px;
+}
+
+.booking-wrapper p {
+	color : #1C477F;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.checkin {
+	display: inline-block;
+	margin-right: 50px;
+	padding-top: 50px;
+}
+
+.checkout {
+	display: inline-block;
+}
+
+.people {
+	display: inline-block;
+	padding-right: 60px;
+}
+
+.hotel {
+	display: inline-block;
+}
+
+.group {
+	padding-top: 50px;
+}
+
+.name {
+	padding-top: 80px;
+}
+
+.btn-jump {
+	display: block;
+	width: 40px;
+	padding: 7px 15px;
+	background-color: #A6A6A6;
+	border-radius: 15px;
+	margin: 4em auto 0 auto;
+	text-decoration: none;
+	color: black;
+	opacity: 0.6;
+}
+
+
+.booking-number {
+	border: solid 4px #284C78;
+	border-radius:20px;
+	margin: 50px auto;
+}
+
+.booking-number h1:before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: 5px;/*線の上下位置*/
+  display: inline-block;
+  width: 60px;/*線の長さ*/
+  height: 5px;/*線の太さ*/
+  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);/*位置調整*/
+  background-color: #00a1e9;/*線の色*/
+  border-radius: 2px;/*線の丸み*/
+}
